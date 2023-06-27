@@ -1,0 +1,117 @@
+[
+    {
+        "requests": [
+            {
+                "name": "Create New Batch",
+                "data": [
+                       {
+      "batchDescription":"Postman001",
+	  "batchName": "Jun23-APICollectors-SDET001-SDET-001",
+      "batchNoOfClasses":2,
+      "batchStatus":"Active"
+   }    
+            ]     
+            },
+            {
+                "name": "Create New Program for Batch",
+                "data": [
+				
+                    {
+      "programDescription":"SDET001",
+	   "programName": "Jun23-APICollectors-SDET001",
+      "programStatus":"Active"
+   }
+            ]    
+            },
+			{
+                "name": "Batch without BatchName",
+                "data": [
+				
+                    {
+  "batchDescription": "Postman",
+  "batchNoOfClasses":3,
+  "batchStatus": "Active"
+ }
+            ]    
+            },
+			{
+                "name": "Batch with integer BatchName",
+                "data": [
+				
+                    {
+  "batchDescription": "Postman",
+  "IntbatchName":1234,
+  "batchNoOfClasses":3,
+  "batchStatus": "Active"
+ }
+            ]    
+            },
+			{
+                "name": "Batch without ProgramId",
+                "data": [
+				
+                    {
+  "batchDescription": "Postman",
+  "batchNoOfClasses":3,
+  "batchStatus": "Active"
+ }
+            ]    
+            },
+			{
+                "name": "Update Batch",
+                "data": [
+				
+                    {
+       "UpdtbatchDescription": "Rest Assure Testing",
+       "UpdtbatchNoOfClasses": 5,
+       "UpdtbatchStatus": "InActive"
+   }
+            ]    
+            },
+			{
+                "name": "Create Program",
+                "data": [
+				
+                    {
+        "programDescription": "DA",
+        "programName": "Jun23-APICollectors-SDET-001",
+        "programStatus": "Active"
+                 }
+            ]    
+            },
+			{
+                "name": "Create Program 2",
+                "data": [
+				
+                    {
+        "programDescription2": "SDET",
+        "programName2": "Jun23-APICollectors-SDET-002",
+        "programStatus2": "Active"
+                 }
+            ]    
+            },
+			{
+                "name": "Update Program By Name",
+                "data": [
+				
+                    {
+        "UpdtprogramDescription2": "Salseforce",
+        "UpdtprogramName2": "Jun23-APICollectors-SDET-023",
+        "programStatus2": "InActive"
+                 }
+            ]    
+            },
+			{
+                "name": "Update Program By Id",
+                "data": [
+				
+                    {
+        "UpdtprogramDescription": "Product Owner",
+        "UpdtprogramName": "Jun23-APICollectors-SDET-123",
+        "programStatus": "Active"
+                 }
+            ]    
+            }
+        ]
+    }
+]
