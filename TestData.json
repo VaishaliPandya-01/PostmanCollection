@@ -111,7 +111,775 @@
         "programStatus": "Active"
                  }
             ]    
-            }
+            },
+			 {
+        "name": "Create new Admin user",
+        "data": [
+          {
+            "userComments": "creating new Admin user",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "adminUserFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA"
+          }
+        ]
+      },
+      {
+        "name": "Create new Staff user",
+        "data": [
+          {
+            "userComments": "creating new Staff user",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "staffUserFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "USA",
+            "userMiddleName": "",
+            "roleId": "R02",
+            "userRoleStatus": "Active",
+            "userTimeZone": "PST",
+            "userVisaStatus": "Not-Specified"
+          }
+        ]
+      },
+      {
+        "name": "Create new Student user",
+        "data": [
+          {
+            "userComments": "creating student user",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "studentUserFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "USA",
+            "userMiddleName": "",
+            "roleId": "R03",
+            "userRoleStatus": "Active",
+            "userTimeZone": "MST",
+            "userVisaStatus": "GC-EAD"
+          }
+        ]
+      },
+      {
+        "name": "Create new user only mandatory fields",
+        "data": [
+          {
+            "userComments": null,
+            "userEduPg": null,
+            "userEduUg": null,
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": null,
+            "userLocation": null,
+            "userMiddleName": null,
+            "roleId": "R03",
+            "userRoleStatus": "Active",
+            "userTimeZone": "CST",
+            "userVisaStatus": "H4-EAD"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with duplicate phone number",
+        "data": [
+          {
+            "userComments": "creating new user with duplicate phone number",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R03",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with string values as integer",
+        "data": [
+          {
+            "roleId": "R03",
+            "userTimeZone": "EST",
+            "userVisaStatus": "H4"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with missing phone number",
+        "data": [
+          {
+            "userComments": "creating user with missing phone number",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R03",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageMissingPhone": "Phone Number is required"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with blank phone number",
+        "data": [
+          {
+            "userComments": "creating user with blank phone number",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R03",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageMissingPhone": "Phone Number is required"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with string phone number",
+        "data": [
+          {
+            "userComments": "creating new user with phone number as string",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "stringUserPhoneNumber": "stringPhone",
+            "roleId": "R03",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageStringPhone": "Phone Number cannot be string"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with missing role id",
+        "data": [
+          {
+            "userComments": "creating new user with missing Role Id",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": null,
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageMandatoryRoleid": "Role Id is mandatory"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with blank role id",
+        "data": [
+          {
+            "userComments": "creating new user with blank Role Id",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "blankRoleId": "",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageMandatoryRoleid": "Role Id is mandatory"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with invalid role id",
+        "data": [
+          {
+            "userComments": "creating new user with invalid Role id",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "invalidRoleId": "Invalid role",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageInvalidRoleid": "Invalid Role id"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with integer role id",
+        "data": [
+          {
+            "userComments": "creating new user with integer value for Role id",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "integerUserRoleId": 485874,
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageInvalidRoleid": "Invalid Role id"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with missing role status",
+        "data": [
+          {
+            "userComments": "creating new user with missing Role status",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "blankUserRoleStatus": null,
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageMandatoryRoleStatus": "Role Status is Mandatory"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with blank role status",
+        "data": [
+          {
+            "userComments": "creating new user with blank Role status",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "blankUserRoleStatus": "",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageMandatoryRoleStatus": "Role Status is Mandatory"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with missing first name",
+        "data": [
+          {
+            "userComments": "creating new user with missing First name",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": null,
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageMandatoryFirstName": "User First Name cannot be null or empty"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with blank first name",
+        "data": [
+          {
+            "userComments": "creating new user with blank First name",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "blankUserFirstName": "",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageMandatoryFirstName": "User First Name cannot be null or empty"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with missing last name",
+        "data": [
+          {
+            "userComments": "creating new user with missing Last name",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": null,
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageMandatoryLastName": "User Last Name cannot be null or empty"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with blank last name",
+        "data": [
+          {
+            "userComments": "creating new user with blank Last name",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "blankUserLastName": "",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": "NA",
+            "messageMandatoryLastName": "User Last Name cannot be null or empty"
+          }
+        ]
+      },
+      {
+        "name": "Create new user with missing time zone",
+        "data": [
+          {
+            "userComments": "creating new user with missing Time zone",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userTimeZone": null,
+            "userVisaStatus": "NA",
+            "messageMandatoryTimeZone": "Failed to create user, as 'TimeZone' is invalid !! "
+          }
+        ]
+      },
+      {
+        "name": "Create new user with blank time zone",
+        "data": [
+          {
+            "userComments": "creating new user with blank Time zone",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "blankUserTimeZone": "",
+            "userVisaStatus": "NA",
+            "messageMandatoryTimeZone": "Failed to create user, as 'TimeZone' is invalid !! "
+          }
+        ]
+      },
+      {
+        "name": "Create new user with invalid time zone",
+        "data": [
+          {
+            "userComments": "creating new user with invalid value for Time zone",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "invalidUserTimeZone": "Invalid Time Zone",
+            "userVisaStatus": "NA",
+            "messageMandatoryTimeZone": "Failed to create user, as 'TimeZone' is invalid !! "
+          }
+        ]
+      },
+      {
+        "name": "Create new user with integer time zone",
+        "data": [
+          {
+            "userComments": "creating new user with Time zone as integer",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userVisaStatus": "NA",
+            "messageMandatoryTimeZone": "Failed to create user, as 'TimeZone' is invalid !! "
+          }
+        ]
+      },
+      {
+        "name": "Create new user with missing visa status",
+        "data": [
+          {
+            "userComments": "creating new user with missing Visa status",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "userVisaStatus": null,
+            "messageMandatoryVisaStatus": "Failed to create user, as 'Visa Status' is invalid !! "
+          }
+        ]
+      },
+      {
+        "name": "Create new user with blank visa status",
+        "data": [
+          {
+            "userComments": "creating new user with blank Visa status",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "blankUserVisaStatus": "",
+            "messageMandatoryVisaStatus": "Failed to create user, as 'Visa Status' is invalid !! "
+          }
+        ]
+      },
+      {
+        "name": "Create new user with invalid visa status",
+        "data": [
+          {
+            "userComments": "creating new user with invalid value for Visa status",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "invalidUserVisaStatus": "invalid visa status",
+            "messageMandatoryVisaStatus": "Failed to create user, as 'Visa Status' is invalid !! "
+          }
+        ]
+      },
+      {
+        "name": "Create new user with integer visa status",
+        "data": [
+          {
+            "userComments": "creating new user with Visa status as integer",
+            "userEduPg": "MS",
+            "userEduUg": "BE",
+            "userFirstName": "APICollectors_",
+            "userLastName": "User",
+            "userLinkedinUrl": "www.linkedin.com/Test1234",
+            "userLocation": "India",
+            "userMiddleName": "",
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "userTimeZone": "IST",
+            "messageMandatoryVisaStatus": "Failed to create user, as 'Visa Status' is invalid !! "
+          }
+        ]
+      },
+      {
+        "name": "Update User role status",
+        "data": [
+          {
+            "roleId": "R03",
+            "userRoleStatus": "InActive",
+            "messageUpdateStatusSuccess": "UserStatus Updated for User: "
+          }
+        ]
+      },
+      {
+        "name": "Update User role roleStatus as integer",
+        "data": [
+          {
+            "roleId": "R03",
+            "integerRoleStatus": 1234,
+            "messageUpdateStatusSuccess": "UserStatus Updated for User: "
+          }
+        ]
+      },
+      {
+        "name": "Update User role roleId as integer",
+        "data": [
+          {
+            "integerUserRoleId": 1234,
+            "userRoleStatus": "Active",
+            "message1UpdateStatusRoleid": "RoleID: ",
+            "message2UpdateStatusRoleid": " not found for the UserID: "
+          }
+        ]
+      },
+      {
+        "name": "Update User role status with blank roleStatus",
+        "data": [
+          {
+            "roleId": "R03",
+            "blankUserRoleStatus": "",
+            "messageMandatoryRoleStatus": "Role Status is Mandatory"
+          }
+        ]
+      },
+      {
+        "name": "Update User role status with blank roleId",
+        "data": [
+          {
+            "blankRoleId": "",
+            "userRoleStatus": "InActive",
+            "messageMandatoryRoleid": "Role Id is mandatory"
+          }
+        ]
+      },
+      {
+        "name": "Update User role missing roleId",
+        "data": [
+          {
+            "roleId": null,
+            "userRoleStatus": "InActive",
+            "messageMandatoryRoleid": "Role Id is mandatory"
+          }
+        ]
+      },
+      {
+        "name": "Update User role missing role status",
+        "data": [
+          {
+            "roleId": "R03",
+            "userRoleStatus": null,
+            "messageMandatoryRoleStatus": "Role Status is Mandatory"
+          }
+        ]
+      },
+      {
+        "name": "Use Update userRole API to update roleId",
+        "data": [
+          {
+            "roleId": "R01",
+            "userRoleStatus": "Active",
+            "messageUpdateRoleStatusInvalidroleid": "RoleID: invalidRoleID not found for the UserID: "
+          }
+        ]
+      },
+      {
+        "name": "Get All Users with Roles to verify role updates",
+        "data": [
+          {
+            "roleId": "R03",
+            "userRoleStatus": 1234
+          }
+        ]
+      },
+      {
+        "name": "Update Admin user",
+        "data": [
+          {
+            "putUserComments": "Updating Admin user",
+            "putUserEduPg": "MSc",
+            "putUserEduUg": "BSc",
+            "putUserFirstName": "APICollectors_",
+            "putUserLastName": "TestUser",
+            "putUserLinkedinUrl": "www.linkedin.com/TestUser",
+            "putUserLocation": "Canada",
+            "putUserTimeZone": "EST",
+            "putUserVisaStatus": "Canada-EAD"
+          }
+        ]
+      },
+      {
+        "name": "Update user first name as null",
+        "data": [
+          {
+            "putUserLastName": "TestUser",
+            "putUserTimeZone": "EST",
+            "putUserVisaStatus": "Canada-EAD",
+            "messagePutMandatoryFirstName": "User First Name is mandatory"
+          }
+        ]
+      },
+      {
+        "name": "Update user last name as null",
+        "data": [
+          {
+            "putUserFirstName": "APICollectors_",
+            "putUserTimeZone": "EST",
+            "putUserVisaStatus": "Canada-EAD",
+            "messagePutMandatoryLastName": "User Last Name is mandatory"
+          }
+        ]
+      },
+      {
+        "name": "Update user time zone as null",
+        "data": [
+          {
+            "putUserFirstName": "APICollectors_",
+            "putUserLastName": "TestUser",
+            "putUserVisaStatus": "Canada-EAD",
+            "messagePutMandatoryTimeZone": "Failed to update user, as 'TimeZone' is invalid !! "
+          }
+        ]
+      },
+      {
+        "name": "Update user visa status as null",
+        "data": [
+          {
+            "putUserFirstName": "APICollectors_",
+            "putUserLastName": "TestUser",
+            "putUserTimeZone": "EST",
+            "messagePutMandatoryVisaStatus": "Failed to update user, as 'Visa Status' is invalid !! "
+          }
+        ]
+      },
+      {
+        "name": "Update user phone number as undefined",
+        "data": [
+          {
+            "putUserFirstName": "APICollectors_",
+            "putUserLastName": "TestUser",
+            "putUserTimeZone": "EST",
+            "putUserVisaStatus": "Canada-EAD",
+            "messageMissingPhone": "Phone Number is required"
+          }
+        ]
+      },
+      {
+        "name": "Create program",
+        "data": [
+          {
+            "userProgramDescription": "Creating program for user",
+            "userProgramName": "Jun23-APICollectors-SDET-",
+            "userProgramStatus": "Active"
+          }
+        ]
+      },
+      {
+        "name": "Create program batch",
+        "data": [
+          {
+            "userBatchDescription": "Creating batch for user",
+            "userBatchName": "Jun23-APICollectors-SDET-SDET01-",
+            "userBatchNoOfClasses": 1,
+            "userBatchStatus": "Active"
+          }
+        ]
+      },
+      {
+        "name": "Update batch Status with missing ProgramId",
+        "data": [
+          {
+            "roleId": "R02",
+            "userBatchStatus": "Active"
+          }
+        ]
+      },
+      {
+        "name": "Update batch Status with missing Roleid",
+        "data": [
+          {
+            "userBatchStatus": "Active"
+          }
+        ]
+      },
+      {
+        "name": "Update batch Status with missing Batch id",
+        "data": [
+          {
+            "roleId": "R02",
+            "userBatchStatus": "Active"
+          }
+        ]
+      },
+      {
+        "name": "Update batch Status with missing Batch status",
+        "data": [
+          {
+            "roleId": "R02"
+          }
+        ]
+      },
+      {
+        "name": "Update batch status with invalid programid",
+        "data": [
+          {
+            "roleId": "R02",
+            "userBatchStatus": "Active"
+          }
+        ]
+      },
+      {
+        "name": "Update batch status with invalid batchid",
+        "data": [
+          {
+            "roleId": "R02",
+            "userBatchStatus": "Active"
+          }
+        ]
+      },
+      {
+        "name": "Update user role program batch status",
+        "data": [
+          {
+            "roleId": "R02",
+            "userBatchStatus": "Active"
+          }
+        ]
+      }
         ]
     }
 ]
