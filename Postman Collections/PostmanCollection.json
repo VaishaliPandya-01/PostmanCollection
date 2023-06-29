@@ -13149,360 +13149,360 @@
 	],
 	"variable": [
 		{
-			"id": "cc4ad125-0e46-437a-8ca2-0f50b8dfc465",
+			"id": "8d74035d-0452-4dcf-9db6-0d30cbd402c1",
 			"key": "BaseURL",
 			"value": "https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms"
 		},
 		{
-			"id": "3f8c64d9-007b-401d-8390-62f91516e95f",
+			"id": "a7593a48-e3d1-4c8a-8e73-5d2bdd617fe0",
 			"key": "batchDescription",
 			"value": "Postman",
 			"type": "string"
 		},
 		{
-			"id": "d812bbc8-6dc2-4a91-be79-18808769c1b8",
+			"id": "76a0f8cb-804a-4ad1-b7fa-7e1402096363",
 			"key": "batchNoOfClasses",
 			"value": "2",
 			"type": "string"
 		},
 		{
-			"id": "8f5caaaf-8542-48be-9d46-8dddebdf6c2a",
+			"id": "4d56ab30-0177-462d-b122-73d2df7e2b1a",
 			"key": "batchStatus",
 			"value": "Active",
 			"type": "string"
 		},
 		{
-			"id": "011f9d73-db4e-4aec-9a67-f3d88da8ad3c",
+			"id": "b2d6b5c0-fdb1-47df-9407-86c4f2c8ed2c",
 			"key": "programDescriptionbatch",
 			"value": "Postman",
 			"type": "string"
 		},
 		{
-			"id": "5bd6b251-82a0-4f64-b350-a63b2f29af6c",
+			"id": "43a08afc-2c9d-44c8-a52f-d5e3a19074ad",
 			"key": "programStatusbatch",
 			"value": "Active",
 			"type": "string"
 		},
 		{
-			"id": "1876ed1c-f457-4c1c-b37c-679a13cf1d2b",
+			"id": "3531016f-cf83-4acb-84ec-8932ea7d4f8a",
 			"key": "UpdtbatchNoOfClasses",
 			"value": "4",
 			"type": "string"
 		},
 		{
-			"id": "7a5bd082-b57d-41f7-b26d-196e85e8a918",
+			"id": "c3f6f2df-3a02-46d1-a52c-5d6137505340",
 			"key": "UpdtbatchStatus",
 			"value": "InActive",
 			"type": "string"
 		},
 		{
-			"id": "45454094-dac9-498a-9857-17ddc3b1ba93",
+			"id": "a34773e3-4f66-416e-8e96-2e42140a55b4",
 			"key": "UpdtbatchDescription",
 			"value": "Rest Assure",
 			"type": "string"
 		},
 		{
-			"id": "8e0ed512-f2ca-417c-898b-2e2e37186181",
+			"id": "31c91b28-931a-4261-acad-ed13307cde61",
 			"key": "userComments",
 			"value": "creating new user",
 			"type": "string"
 		},
 		{
-			"id": "0e804b53-af18-47d5-909e-ff733bf32fe5",
+			"id": "ee5b2abe-bebd-431e-8414-942d64b65e67",
 			"key": "userEduPg",
 			"value": "MS",
 			"type": "string"
 		},
 		{
-			"id": "6bcb6c8c-4e16-494e-9a73-8c14fec24709",
+			"id": "90316011-c0ba-4830-92d3-758ef98fcfc8",
 			"key": "userEduUg",
 			"value": "BE",
 			"type": "string"
 		},
 		{
-			"id": "805de63c-7969-44aa-a4c0-27d13d722762",
+			"id": "49a922a1-1838-4053-8760-ccb709bc3d27",
 			"key": "userFirstName",
 			"value": "APICollectors_004",
 			"type": "string"
 		},
 		{
-			"id": "81a25e73-3f10-4419-8de6-fe382a097641",
+			"id": "77dd4dea-d159-4719-8600-d495af765f60",
 			"key": "adminUserFirstName",
 			"value": "APICollectors_001",
 			"type": "string"
 		},
 		{
-			"id": "3d9d000b-73e4-459c-8628-b551bae47d51",
+			"id": "df00d56a-1e23-4df6-9f59-3341cbb2c92a",
 			"key": "staffUserFirstName",
 			"value": "APICollectors_002",
 			"type": "string"
 		},
 		{
-			"id": "2993c8b0-7dc1-429b-973e-9d26ba7e7aae",
+			"id": "b3469e68-7904-4a60-9c28-704c8e996586",
 			"key": "studentUserFirstName",
 			"value": "APICollectors_003",
 			"type": "string"
 		},
 		{
-			"id": "2ba4a760-d1f2-462f-b264-8cf37b085d6c",
+			"id": "eef8413d-0000-42e8-a1f0-9ddf22919cf6",
 			"key": "userLastName",
 			"value": "User",
 			"type": "string"
 		},
 		{
-			"id": "0f936cdd-f232-4069-b208-fdf4e3cbeb6a",
+			"id": "c062ed00-6c09-436c-b7a6-c6c28f7c4d1a",
 			"key": "userLinkedinUrl",
 			"value": "www.linkedin.com/Test1234",
 			"type": "string"
 		},
 		{
-			"id": "19917919-b7e6-421c-8efe-e63ce7cd87d4",
+			"id": "9b502702-5dcd-4850-a49b-d5ba6a3e8913",
 			"key": "userLocation",
 			"value": "India",
 			"type": "string"
 		},
 		{
-			"id": "5c0124a0-de62-4929-8f7b-4785fede2b55",
+			"id": "11ca5730-7113-49d0-bc2e-ed00c8f3100e",
 			"key": "userMiddleName",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "713f2627-3492-4b18-8557-49d5d7f8b73b",
+			"id": "1e2502c4-10f9-499a-8a30-7c43c11edf3c",
 			"key": "roleId",
 			"value": "R02",
 			"type": "string"
 		},
 		{
-			"id": "99a9c1c9-08ae-4d8a-a201-8bb70ec2047e",
+			"id": "ef3f5318-04a1-4879-8662-3c50f4960c1a",
 			"key": "userRoleStatus",
 			"value": "Active",
 			"type": "string"
 		},
 		{
-			"id": "29e084e0-8185-4bec-a5c7-aeab317246c3",
+			"id": "60b7ece6-c806-498f-bff1-46126574e108",
 			"key": "userTimeZone",
 			"value": "IST",
 			"type": "string"
 		},
 		{
-			"id": "882e32fc-e641-4b79-a4a3-9de103349b12",
+			"id": "185306d0-b28c-4e3b-b26c-7476d230188b",
 			"key": "userVisaStatus",
 			"value": "NA",
 			"type": "string"
 		},
 		{
-			"id": "62388643-2b19-4af6-a4e1-ace7bc36a700",
+			"id": "5eb1eec9-ca37-4475-9acc-e4d0f7aeaaf4",
 			"key": "invalidUserRoleId",
 			"value": "invalidRoleID",
 			"type": "string"
 		},
 		{
-			"id": "3657b880-1bde-4239-91df-8b4b583d56a1",
+			"id": "7e1bb91e-235c-4ea9-9d5e-bdcb26c73d12",
 			"key": "integerUserRoleId",
 			"value": "46546",
 			"type": "string"
 		},
 		{
-			"id": "aaeae22f-c677-4255-9f3c-f8945837cbcb",
+			"id": "9b3501dc-0fac-4532-87cb-7996ece0fd84",
 			"key": "invalidUserVisaStatus",
 			"value": "invalidVisaStatus",
 			"type": "string"
 		},
 		{
-			"id": "c6839f56-1f30-4a96-b05c-1fb2624d2403",
+			"id": "d4debcdc-0545-4458-b828-f1184d24ca81",
 			"key": "invalidUserTimeZone",
 			"value": "invalidTimeZone",
 			"type": "string"
 		},
 		{
-			"id": "897bb5e6-908e-4725-bc79-f27f5118ee78",
+			"id": "0e4339a4-1bbc-4ea1-9d16-220031fb1530",
 			"key": "stringUserPhoneNumber",
 			"value": "strPhone",
 			"type": "string"
 		},
 		{
-			"id": "ffc05bef-9ed0-47ea-bba4-d7b379f739f4",
+			"id": "db6131e6-8c2b-4490-b25e-0f1936e07176",
 			"key": "blankRoleId",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d200611f-b4c5-4ef9-9bd1-4116c39a73af",
+			"id": "ba001e6e-cfb9-4892-b140-0b6b308d78f8",
 			"key": "blankUserRoleStatus",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "36027b04-2c89-4a98-9053-304d337aadbd",
+			"id": "2a16bc26-a027-443b-a384-287a5f93375e",
 			"key": "blankUserFirstName",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "23eec2a7-cba8-4aed-9825-bf107346146a",
+			"id": "fdef5aa1-bd5c-490f-8b94-97b06555d2cd",
 			"key": "blankUserLastName",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "8600d270-68f9-41b2-9d05-1e1d5b019bc0",
+			"id": "4309e0dd-03b7-4613-a6c2-49169298db22",
 			"key": "blankUserTimeZone",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "fc1d814f-d50c-4e56-bfe6-c26a55d9bdbc",
+			"id": "0330a31e-0bfa-4f2c-8d2d-40ba1eed058c",
 			"key": "blankUserVisaStatus",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "cf59423d-f8d2-4890-9f92-853ffcd5d7ea",
+			"id": "a2fab181-9026-483d-a543-a8d4918a69a9",
 			"key": "programDescription",
 			"value": "DA",
 			"type": "string"
 		},
 		{
-			"id": "aa5b7447-8d1f-41c1-a579-43f88f6e0bcb",
+			"id": "1633ffa6-d8b7-43fc-98e2-b16a348e5852",
 			"key": "programStatus",
 			"value": "Active",
 			"type": "string"
 		},
 		{
-			"id": "48cd727e-ffb4-447b-a388-af32563ed05d",
+			"id": "9cf3ad4d-c7e6-472d-8d48-8c1070006a7a",
 			"key": "programDescription2",
 			"value": "SDET",
 			"type": "string"
 		},
 		{
-			"id": "5fe987e0-854b-45e1-822a-e632b973cdf8",
+			"id": "1ad43285-c935-4e50-910f-7df61f6a0cff",
 			"key": "UpdtprogramDescription",
 			"value": "Postman",
 			"type": "string"
 		},
 		{
-			"id": "0550d573-cf8a-4fce-9a14-6a25f9cd6d33",
+			"id": "1dbe5e6e-324f-4ba7-9567-1d6eb0c66cd2",
 			"key": "programStatus2",
 			"value": "Active",
 			"type": "string"
 		},
 		{
-			"id": "652344cb-7946-4c6e-b2ea-66183ac798b7",
+			"id": "d147740f-21fe-45d4-969a-5b3d8e1d163e",
 			"key": "UpdtprogramDescription2",
 			"value": "Rest Assure",
 			"type": "string"
 		},
 		{
-			"id": "8165f6bd-e81f-432b-bcf5-a808d87208e8",
+			"id": "9535792c-d1f9-401d-966f-57ba34460512",
 			"key": "userNameCounter",
 			"value": "0",
 			"type": "string"
 		},
 		{
-			"id": "fc1f8d7f-cbaa-40b4-b915-05664e238252",
+			"id": "d20052b0-310e-4eba-bf27-e30d0531a0ea",
 			"key": "messageUpdateStatusSuccess",
 			"value": "UserStatus Updated for User: ",
 			"type": "string"
 		},
 		{
-			"id": "668f1dd9-71fd-4877-9a3a-196b3ac892db",
+			"id": "d00ce6c8-1ffb-4d78-b8ee-f15936a4bb02",
 			"key": "message1UpdateStatusRoleid",
 			"value": "RoleID: ",
 			"type": "string"
 		},
 		{
-			"id": "de0b798c-d8ba-4aac-9848-0051a92a6f4e",
+			"id": "68da4654-6443-45ff-a665-926319d27bf9",
 			"key": "message2UpdateStatusRoleid",
 			"value": " not found for the UserID: ",
 			"type": "string"
 		},
 		{
-			"id": "87c198e6-142c-4d83-8742-afcf619d8a3f",
+			"id": "eb6f70ea-e49d-4ff1-82cf-5936f1a76692",
 			"key": "messageMandatoryRoleStatus",
 			"value": "Role Status is Mandatory",
 			"type": "string"
 		},
 		{
-			"id": "0c2ace0a-b989-42f3-b387-e5076fedfc15",
+			"id": "4415d01f-2b2d-4539-9642-453ee74705e1",
 			"key": "messageMandatoryRoleid",
 			"value": "Role Id is mandatory",
 			"type": "string"
 		},
 		{
-			"id": "90c93929-753c-4357-b99a-51d8d1135c70",
+			"id": "d874b843-57a8-40c5-9ab8-24ff5aee8810",
 			"key": "messageUpdateRoleStatusInvalidroleid",
 			"value": "RoleID: invalidRoleID not found for the UserID: ",
 			"type": "string"
 		},
 		{
-			"id": "9432a588-24f1-4b76-913b-40affa463c9f",
+			"id": "4dd369a3-3ab1-452a-a6d8-a1eb60208df5",
 			"key": "messageMissingPhone",
 			"value": "Phone Number is required",
 			"type": "string"
 		},
 		{
-			"id": "bbcc1d16-5e29-4d90-8556-be8186657306",
+			"id": "4b76bd26-14f9-42f7-8fc3-5000f60a30ea",
 			"key": "messageStringPhone",
 			"value": "Phone Number cannot be string",
 			"type": "string"
 		},
 		{
-			"id": "39206d9e-8153-4c77-8f9a-3f81ed621217",
+			"id": "a467cedb-8d51-49b1-9d45-ab20c7a1a047",
 			"key": "messageInvalidRoleid",
 			"value": "Invalid Role id",
 			"type": "string"
 		},
 		{
-			"id": "f405216a-8753-40b1-9611-1d81da63cf06",
+			"id": "d761ab67-caaa-4c65-83f4-9d86ded759f0",
 			"key": "messageMandatoryFirstName",
 			"value": "User First Name cannot be null or empty",
 			"type": "string"
 		},
 		{
-			"id": "a4f3e503-217c-4ab2-8596-d8e039106a1c",
+			"id": "8f957c17-0a64-4774-ba9c-36029a4facc9",
 			"key": "messageMandatoryLastName",
 			"value": "User Last Name cannot be null or empty",
 			"type": "string"
 		},
 		{
-			"id": "b64207ba-5822-4f98-8433-3e77a466486f",
+			"id": "9e137cd0-f207-4246-b39f-13926dcda666",
 			"key": "messageMandatoryTimeZone",
 			"value": "Failed to create user, as 'TimeZone' is invalid !! ",
 			"type": "string"
 		},
 		{
-			"id": "7b493537-a7f7-4199-86cf-f329309c11ae",
+			"id": "c6abf355-1f6e-4490-8f22-f4dd956da936",
 			"key": "messageMandatoryVisaStatus",
 			"value": "Failed to create user, as 'Visa Status' is invalid !! ",
 			"type": "string"
 		},
 		{
-			"id": "9e6ed9e9-57e0-4751-a7f4-0d0dd6ac5ba6",
+			"id": "d60277bc-01e8-40f9-a60e-401db4c91fd4",
 			"key": "integerRoleStatus",
 			"value": "1234",
 			"type": "string"
 		},
 		{
-			"id": "1fbde331-c6f3-4e19-9807-75217948ae14",
+			"id": "ec30a04d-67db-4c70-a80e-74af27e84baf",
 			"key": "messagePutMandatoryFirstName",
 			"value": "User First Name is mandatory",
 			"type": "string"
 		},
 		{
-			"id": "e1e863c2-38e8-4620-86d1-baf247527eb3",
+			"id": "f73f2f57-add4-414d-8ace-5640b55e7c92",
 			"key": "messagePutMandatoryLastName",
 			"value": "User Last Name is mandatory",
 			"type": "string"
 		},
 		{
-			"id": "d7818fa7-b2c4-4590-8f83-12b7603245a5",
+			"id": "a0b8d0fd-ec80-4386-94f0-4c24a3f12cf6",
 			"key": "messagePutMandatoryTimeZone",
 			"value": "Failed to update user, as 'TimeZone' is invalid !! ",
 			"type": "string"
 		},
 		{
-			"id": "4cc829f3-8d8b-4bfe-964b-945ad390c8b8",
+			"id": "df8afb32-7794-496a-858f-807a7a1630bb",
 			"key": "messagePutMandatoryVisaStatus",
 			"value": "Failed to update user, as 'Visa Status' is invalid !! ",
 			"type": "string"
